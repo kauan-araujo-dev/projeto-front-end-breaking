@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  background-color: #1e1e1e;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #333;
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+  height: 11%;
+  width: 100%;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+header h1 {
+  padding: 10px;
+  font-family: "Permanent Marker", cursive;
+  color: #f39c12;
+}
+.logo-olimpiada{
+  height: 50%;
+  width: 100px;
+  fill: #f39c12;
+  padding: 10px;
+}
+header a {
+  color: #f39c12;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #f39c12;
+}
+p {
+  color: #ecf0f1;
+}
+.bold {
+  font-weight: bold;
+}
+.separador{
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #f39c12;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.container {
+  width: 100%;
+}
+.container-geral > div, .container-geral > section {
+  margin-bottom: 123px;
+}
+.banner {
+  width: 100%;
+  height: 720px;
+  background-image: url("../img/banner.jfif");
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  margin-bottom: 123px;
+  width: 1280px;
+
+  margin: 0 auto;
+}
+.container > section {
+  margin-bottom: 123px;
+}
+.historia-calendario {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.historia,
+.calendario {
+  width: 595px;
+  height: 780px;
+}
+.historia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.historia h3 {
+  padding-bottom: 20px;
+}
+.historia p {
+  width: 90%;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: justify;
+}
+.calendario {
+  background-color: #f39c12;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+}
+.calendario > div {
+  height: 50%;
+  width: 100%;
+}
+.container-dia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-dia div {
+  width: 90%;
+  background-color: #fff;
+  padding: 25px;
+  margin: 10px 5%;
+  border-radius: 4px;
+}
+.container-dia span {
+  text-align: left;
+}
+.horario {
+  border-right: 1px solid #bbb;
+  padding: 0 10px 0 0;
+  width: 100%;
+}
+.destaques {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 74px;
+  text-align: center;
+  
+}
+.destaques h4{
+  padding: 10px;
+}
+.foto {
+  width: 366px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: #f39c12 2px solid;
+}
+.foto1 {
+  background-image: url("../img/foto1.jpeg");
+}
+.foto2 {
+  background-image: url("../img/foto2.jfif");
+}
+.foto3 {
+  background-image: url("../img/foto3.jfif");
+}
+.foto4 {
+  background-image: url("../img/foto4.jfif");
+}
+.foto5 {
+  background-image: url("../img/foto5.jfif");
+}
+.foto6 {
+  background-image: url("../img/foto6.jfif");
+}
+.classificacao {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333;
+  margin-top: 40px;
+  border-radius: 4px;
+  padding: 40px;
+}
+.classificacao p {
+  width: 92%;
+  padding-bottom: 40px;
+}
+.classificacao h4 {
+  padding-bottom: 20px;
+}
+.classificacao ul {
+  list-style-type: none;
+}
+.classificacao li {
+  color: #ecf0f1;
+  padding: 10px;
+}
+
+.container-b-boys, .container-b-girls {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.container-b-boys div, .container-b-girls div {
+  width: calc((100% - 90px) / 2);
+}
+
+.b-boys-img, .b-girls-img {
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  border-radius: 4px;
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.01);
+}
+.b-boys-img{
+  background-image: url("../img/dany.png");
+}
+.b-girls-img{
+  background-image: url("../img/ayumi.png");
+} 
+
+.b-boys-texto h4,
+.b-boys-texto p,
+.b-girls-texto h4,
+.b-girls-texto p {
+  padding: 20px;
+}
+.b-boys-texto, .b-girls-texto{
+  background-color: #333;
+  padding: 20px;
+  border-radius: 4px;
+}
+.b-boys-texto p, .b-girls-texto p {
+  width: 90%;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #333;
+  color: #ecf0f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 20px 10px 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer-section h4 {
+  color: #f39c12;
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #ecf0f1;
+  line-height: 1.6;
+}
+
+.footer-section a:hover {
+  color: #f39c12;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+}
+.footer-section .socials {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section .socials li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-section .socials li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section .socials li a i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-section .socials li a:hover {
+  color: #f39c12;
+}
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #bbb;
+}
+
