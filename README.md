@@ -11,7 +11,7 @@ Este projeto apresenta informações sobre a inclusão do breaking como modalida
 
 🔹 CSS3
 
-🔹 Objetivo
+🎯 Objetivo
 
 Praticar conceitos fundamentais de desenvolvimento web, como:
 
