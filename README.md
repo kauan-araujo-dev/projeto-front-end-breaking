@@ -19,7 +19,7 @@ Praticar conceitos fundamentais de desenvolvimento web, como:
 
 🔹 Estilização com CSS
 
-🌐 Link do site: 
+🌐 Link do site: <br>
 <a hreaf="https://kauan-araujo-dev.github.io/projeto-front-end-breaking/">
 https://kauan-araujo-dev.github.io/projeto-front-end-breaking/
 </a>
